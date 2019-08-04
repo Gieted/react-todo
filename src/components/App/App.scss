@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
+
+$family-sans-serif: "Nunito", sans-serif;
+
+@import "../../../node_modules/bulma/bulma.sass";
+
+.main-icon-container {
+  text-align: center;
+}
+
+.main-icon {
+  font-size: 1000%;
+}
+
+.main-title {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 70px;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.enter-transition-enter,
+.enter-transition-appear {
+  opacity: 0;
+}
+
+.enter-transition-enter-active,
+.enter-transition-appear-active {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.enter-transition-enter-done {
+  opacity: 1;
+}
+
+.logo-animation-enter-active {
+  top: 20%;
+  transition: all ease-in-out .7s;
+}
+
+.logo-animation-enter-done {
+  top: 20%;
+}
+
+.TaskContainer {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.TaskBox {
+  margin: 0 auto
+}
+
+.App {
+  display: flex;
+}

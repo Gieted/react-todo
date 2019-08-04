@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import "../../../node_modules/bulma/bulma.sass";
+
+.task-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.done-icon,
+.cross-icon {
+  color: #babcbe
+}
+
+.cross-icon {
+  top: 1px;
+  position: relative;
+  font-size: 120%;
+}
+
+.done-icon:hover {
+  color: #12cc00
+}
+
+.cross-icon:hover {
+  color: red;
+}
+
+.task-content {
+  padding-left: 12px;
+  position: absolute;
+  left: 90px;
+}
+
+.is-disabled {
+  opacity: .5;
+  text-decoration: line-through;
+}

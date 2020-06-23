@@ -1,1 +1,5 @@
-https://third-pulsar-248820.appspot.com/
+# React TODO
+
+This is my first app made with React.
+
+It's a TODO list.
